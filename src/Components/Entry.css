@@ -1,0 +1,40 @@
+.form {
+  background-color: #CDFEA9;
+
+}
+
+input[type=text]{
+  border: 3px solid;
+  border-radius: 20px;
+  border-color: goldenrod;
+
+}
+input[name=Entry]{
+  width: 400px;
+
+}
+
+.button{
+  background-color: #f44336;
+  border : 1px solid;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover{
+  background-color: magenta;
+
+}
+.button:active{
+  background-color:magenta;
+  box-shadow: 0 2px #666;
+  transform: translateY (4px);
+}
+
+.download{
+  background-color: #008CBA;
+  border-radius: 8px;
+}
